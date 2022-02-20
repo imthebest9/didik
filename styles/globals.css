@@ -1,0 +1,76 @@
+@import url('/fonts/style.css');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer utilities {
+  .row-cards {
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+
+  .colors {
+    background-image: linear-gradient(
+      to left bottom,
+      #f8b2d9,
+      #edb4e4,
+      #dfb7ed,
+      #cfbaf4,
+      #bdbef9,
+      #adc4fe,
+      #9dcaff,
+      #8fd0ff,
+      #84daff,
+      #80e3fb,
+      #84ebf5,
+      #90f2ec
+    );
+  }
+  .h1-font {
+    font-family: 'SF UI Display Semibold';
+    font-weight: 500;
+    font-size: 24px;
+  }
+  .h2-font {
+    font-family: 'SF UI Display Medium';
+  }
+  .h3-font {
+    font-family: 'SF UI Display Light';
+    font-weight: 500;
+  }
+  .p-font {
+    font-family: 'SF UI Display Thin';
+  }
+  .green-colour {
+    background-color: #d7ede8;
+  }
+  .blue-colour {
+    background-color: #9ad0ec;
+  }
+
+  .h1-lesson-font {
+    font-family: 'SF UI Display Semibold';
+    font-weight: 700;
+    font-size: 30px;
+  }
+
+  .attach-colour {
+    background-color: #8fb6df;
+  }
+
+  .section-title{
+    font-family: 'SF UI Display Semibold';
+    font-weight: 500;
+    font-size: 24px;
+  }
+
+  .section-para{
+    font-family: 'SF UI Display Medium';
+    font-weight: 400;
+    font-size: 18px;
+  }
+}
